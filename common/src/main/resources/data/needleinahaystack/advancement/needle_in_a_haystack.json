@@ -1,0 +1,28 @@
+{
+  "parent": "minecraft:story/root",
+  "criteria": {
+    "needle_found": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": "advancements.needleinahaystack.story.find_needle.description"
+    },
+    "frame": "challenge",
+    "icon": {
+      "count": 1,
+      "id": "minecraft:stick"
+    },
+    "show_toast": true,
+    "title": {
+      "translate": "advancements.needleinahaystack.story.find_needle.title"
+    }
+  },
+  "requirements": [
+    [
+      "needle_found"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

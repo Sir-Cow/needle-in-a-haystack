@@ -1,0 +1,15 @@
+{
+  "advancements.needleinahaystack.story.find_needle.title": "The Needle",
+  "advancements.needleinahaystack.story.find_needle.description": "Find the Needle in a Hay Stack",
+  "event.needleinahaystack.chat_message": "You found the needle!",
+  "event.needleinahaystack.chat_message.hover.singular": "Found the needle in %s block!",
+  "event.needleinahaystack.chat_message.hover.plural": "Found the needle in %s blocks!",
+  "event.needleinahaystack.command.needle.singular": "You have broken %s block searching for the needle",
+  "event.needleinahaystack.command.needle.plural": "You have broken %s blocks searching for the needle",
+  "event.needleinahaystack.command.needlepb.singular": "Your personal best is %s block!",
+  "event.needleinahaystack.command.needlepb.plural": "Your personal best is %s blocks!",
+  "event.needleinahaystack.command.needlepb.empty": "Needle not yet found",
+  "event.needleinahaystack.command.needlepbreset": "Reset needle personal best",
+  "item.needleinahaystack.needle": "Needle",
+  "item.needleinahaystack.needle_lore": "...was it really worth it?"
+}

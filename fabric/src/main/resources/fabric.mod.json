@@ -8,16 +8,16 @@
         "${mod_author}"
     ],
     "contact": {
-        "homepage": "",
-        "sources": "",
-        "issues": ""
+        "homepage": "https://modrinth.com/mod/needle-in-a-hay-stack",
+        "sources": "https://github.com/Sir-Cow/needle-in-a-haystack",
+        "issues": "https://github.com/Sir-Cow/needle-in-a-haystack/issues"
     },
     "license": "${license}",
     "icon": "icon.png",
     "environment": "*",
     "entrypoints": {
         "main": [
-            "com.example.examplemod.ExampleMod"
+            "sircow.needleinahaystack.FabricNeedleInAHaystack"
         ]
     },
     "mixins": [
@@ -32,7 +32,11 @@
     },
     "custom": {
         "modmenu": {
-            "update_checker": false
+            "links": {
+                "modmenu.modrinth": "https://modrinth.com/mod/needle-in-a-hay-stack",
+                "modmenu.curseforge": "https://curseforge.com/minecraft/mc-mods/needle-in-a-hay-stack"
+            },
+            "update_checker": true
         }
     }
 }
