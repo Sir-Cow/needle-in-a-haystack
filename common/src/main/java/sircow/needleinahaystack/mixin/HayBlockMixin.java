@@ -55,7 +55,7 @@ public class HayBlockMixin {
             player.sendSystemMessage(message);
 
             var holder = serverPlayer.level().getServer().getAdvancements().get(Constants.id("needle_in_a_haystack"));
-            
+
             if (holder != null) serverPlayer.getAdvancements().award(holder, "needle_found");
         }
         else NeedleHelper.setPity(serverPlayer, pity + 1);
